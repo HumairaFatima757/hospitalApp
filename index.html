@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+     <div id="container">
+
+       <h1 id="head1">Welcome in humaira's digital hospital !  
+       </h1>
+       <h2 id="head2">I can give you medicine according to your disease</h2>
+    
+
+       
+        <div id="inp1"></div>
+         <!-- placeholder="Enter your disease and see recommend medicine here"  -->
+        <h2 id="head3">Please choose your disease below
+            and get medicine  </h2>
+        <!-- <input type="text" id="inp2"> -->
+        <select name="disease"  id="disease" placeholder="diseases">
+            <option id="opt"  value=""  selected disabled >select your disease</option>
+            <option id="opt1" class="opt0"  value="cough" onclick="getme()">cough</option>
+            <option id="opt2" class="opt0" value="fever" onclick="getme()">fever</option>
+            <option id="opt3" class="opt0" value="flu" onclick="getme()">flu</option>
+            <option id="opt4" class="opt0" value="headache" onclick="getme()">headache</option>
+            <option id="opt5" class="opt0" value="backache" onclick="getme()">backache</option>
+            <option id="opt6"  class="opt0"value="dizziness" onclick="getme()">dizziness</option>
+            <option id="opt7" class="opt0" value="mumps" onclick="getme()">mumps</option>
+
+        </select>
+      
+
+     </div>
+
+    <script src="./app.js"> 
+
+    </script>
+</body>
+</html>
